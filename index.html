@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My APP</title>
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body>
+    <div class="container" id="quizContainer">
+      <div id="box" class="main">
+      <div id="box" class="main neon-effect">
+        <h2 id="quesbox" class="question"></h2>
+        <div class="options-container">
+        <div class="row">
+          <input
+            class="options"
+            id="option1"
+            type="radio"
+            value="a"
+            name="option"
+          />
+          <label for="option1" class="option-label option-a">Option 1</label>
+        </div>
+        <div class="row">
+          <input
+            class="options"
+            id="option2"
+            type="radio"
+            value="b"
+            name="option"
+          />
+          <label for="option1" class="option-label option-b">Option 2</label>
+        </div>
+        <div class="row">
+          <input
+            class="options"
+            id="option3"
+            type="radio"
+            value="c"
+            name="option"
+          />
+          <label for="option1" class="option-label option-c">Option 3</label>
+        </div>
+        <div class="row">
+          <input
+            class="options"
+            id="option4"
+            type="radio"
+            value="d"
+            name="option"
+          />
+          <label for="option1" class="option-label option-d">Option 4</label>
+          <div id="progress"></div>
+        </div>
+        <button class="btn" onclick="submitquiz()">Submit</button>
+        <div id="timer"></div>
+      </div>
+    </div>
+  </div>
+    <script src="app.js"></script>
+  </body>
+</html>

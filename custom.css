@@ -1,0 +1,146 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+  background-image: url('https://t3.ftcdn.net/jpg/04/78/35/22/360_F_478352239_ckoEVDJZX54tvAzxpL3F7UOr2qoXx0wV.jpg');
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-image: url('https://www.shutterstock.com/image-illustration/digital-question-mark-concept-on-260nw-1670185855.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.main {
+  text-align: center;
+  padding: 20px;
+}
+
+.options {
+  margin-right: 10px;
+  color: #231942;
+}
+
+.option-label {
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 24px;
+  color: #ecf39e;
+  transition: background-color 0.3s ease;
+}
+
+.option-label:hover {
+  background-color: #231942;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #a9def9;
+  color: rgb(8, 3, 3);
+  border: none;
+  font-weight: 600;
+  border-radius: 7px;
+  font-size: 19px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 10px #3e8db4,  0 0 50px #133a4e;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  box-shadow: 0 0 10px #0056b3;
+}
+
+#progress {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.question {
+  color: #ecf39e;
+
+}
+
+#timer {
+  color: rgb(13, 7, 7);
+  font-size:19px;
+  font-weight: 600;
+}
+h3{
+  color: white;
+  font-size: 23px;
+}
+h2{
+  color: white;
+  font-size: 23px;
+}
+
+.options-container {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  
+  margin-bottom: 10px;
+}
+
+.option-box {
+  width: 48%; 
+}
+
+.option-box input[type="radio"] {
+  display: none;
+}
+
+.option-label {
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  border: 2px solid #95a20b;
+  border-radius: 8px;
+  text-align: center;
+  color: #ecf39e;
+  transition: background-color 0.3s ease;
+}
+
+.option-label:hover {
+  background-color: #231942;
+}
+
+.option-label.option-a {
+  text-shadow: 0 0 5px #b5b6a3;
+}
+.option-label.option-b {
+  text-shadow: 0 0 5px #b5b6a3;
+}
+.option-label.option-c {
+  text-shadow: 0 0 5px #b5b6a3;
+}
+.option-label.option-d {
+  text-shadow: 0 0 5px #b5b6a3;
+}
+
